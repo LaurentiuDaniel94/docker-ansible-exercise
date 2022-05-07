@@ -1,0 +1,24 @@
+---
+- hosts: all
+  become: yes
+  
+  tasks:
+
+    - name: apt update
+      apt: update_cache=yes
+
+    - name: Upgrade all apt packages
+      apt: upgrade=dist
+
+    - name: Install Docker-compose  
+      raw: apt install -y docker-compose 
+
+    - name: launch my container
+      community.docker.docker_container:
+        name: bosch-exercise
+        image: laurentiu2201/bo-exercise
+        state: started
+        ports:
+         - "3000:3000"
+        volumes:
+         - /data
