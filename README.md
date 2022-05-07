@@ -23,10 +23,11 @@
 
 
 1. Created three Ubuntu droplets on cloud.digitalocean.com
-   -> Workstation
-      -> Installed in the workstation Docker and Ansible
-   -> Ubuntu-testServer-01
-   -> Ubuntu-testServer-02
+   - Workstation
+   	- Installed in the workstation Docker and Ansible
+   	- Installed community.docker.docker_container module
+   - Ubuntu-testServer-01
+   - Ubuntu-testServer-02
    
 2. Cloned the repo for "Todo" app from the requirement: https://docs.docker.com/get-started/02_our_app/
    - Created the Dockerfile.
