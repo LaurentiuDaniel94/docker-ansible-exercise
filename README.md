@@ -29,10 +29,10 @@
    -> Ubuntu-testServer-02
    
 2. Cloned the repo for "Todo" app from the requirement: https://docs.docker.com/get-started/02_our_app/
-   -> Created the Dockerfile.
-   -> Pushed the final docker image to Docker Hub
-   -> The playbook uses community.docker.docker_container module to manage the docker image from Docker Hub.
+   - Created the Dockerfile.
+   - Pushed the final docker image to Docker Hub
+   - The playbook uses community.docker.docker_container module to manage the docker image from Docker Hub.
    
 3. Links to the two Ubuntu Servers:
-    -> http://167.99.43.204:3000 (Ubuntu-testServer-01)
-    -> http://167.99.43.95:3000  (Ubuntu-testServer-02)
+    - http://167.99.43.204:3000 (Ubuntu-testServer-01)
+    - http://167.99.43.95:3000  (Ubuntu-testServer-02)
