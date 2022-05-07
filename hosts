@@ -1,0 +1,7 @@
+[servers]
+
+Ubuntu-testServer-01 ansible_host=167.99.43.204
+Ubuntu-testServer-02 ansible_host=167.99.43.95
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
