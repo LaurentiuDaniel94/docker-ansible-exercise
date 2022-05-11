@@ -35,5 +35,5 @@
    - The playbook uses community.docker.docker_container module to manage the docker image from Docker Hub.
    
 3. Links to the two Ubuntu Servers:
-    - http://128.199.51.88:3000 (Ubuntu-testServer-01)
-    - http://167.99.43.95:3000  (Ubuntu-testServer-02)
+    - http://128.199.51.88:3000 (Ubuntu-testServer-01) [I stopped the droplet]
+    - http://167.99.43.95:3000  (Ubuntu-testServer-02) [I stopped the droplet]
